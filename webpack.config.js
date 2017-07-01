@@ -10,7 +10,7 @@ module:{
         {
             loader:'babel-loader',
             query:{
-                presets:['react', 'es2015']
+                presets:['react', 'es2015', 'stage-0']
             },
             test: /\.jsx?$/,
             exclude:/(node_modules|bower_components)/
